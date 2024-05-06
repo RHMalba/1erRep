@@ -1,0 +1,29 @@
+.divPrincipal{
+    /* Comentario */
+    padding: 20%;
+    margin-left: 50px;
+    margin-top: 20px;
+    display: flex;
+    justify-content: center; /* Centra horizontalmente */
+    align-items: center; /* Centra verticalmente */
+    width: 100vw; /* Ancho completo de la ventana */
+    height: 100vh; /* Altura completa de la ventana */
+    background-color:cadetblue;
+}
+.dataVals{
+    margin-bottom: 10px;
+}
+
+.divSecundario{
+    width: 200px; /* Ancho del div centrado */
+    height: 100px; /* Altura del div centrado */
+}
+
+button{
+    background-color:dimgray;
+    font-size: large;
+    font-family:'Trebuchet MS';
+    padding: 5px; 
+    &:hover{background-color: crimson;}
+    margin-top: 3%;
+}
